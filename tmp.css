@@ -6,14 +6,14 @@
 
 /*ＪＡＶＡスクリプト版「箱庭諸島」-ver1.11- との共有部分 */
 
-a:link    { color: #0000FF;       }
-a:visited { color: #0000FF;       }
+a:link    { color: #FF1111;       }
+a:visited { color: #EE1111;       }
 a:active  { color: #FF0000;       }
 a:hover   { text-decoration:underline;}
 a.M       { text-decoration:none;font-size:9pt;}
 
 body{
-  color: #000000;
+  color: #FFEEEE;
   background-color: #221111;/* #EEFFFF;*/
   margin-top:3px;
   background-image: url('../tmp/sacher.webp');
