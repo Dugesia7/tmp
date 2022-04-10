@@ -6,8 +6,8 @@
 
 /*ＪＡＶＡスクリプト版「箱庭諸島」-ver1.11- との共有部分 */
 
-a:link    { color: #FF1111;       }
-a:visited { color: #EE1111;       }
+a:link    { color: #EE1111;       }
+a:visited { color: #DD2222;       }
 a:active  { color: #FF0000;       }
 a:hover   { text-decoration:underline;}
 a.M       { text-decoration:none;font-size:9pt;}
@@ -30,13 +30,13 @@ td,th {
 th {
   border-style:outset;
   border-width:1px;
-  border-color:#CCCCFF;
+  border-color:#FFCCCC;
   filter:blur(direction=135,strength=2);
 }
 td {
   border-style:outset;
   border-width:1px;
-  border-color:#CCCCFF;
+  border-color:#FFCCCC;
 }
 h1   { color: #4444FF; margin:3 0 3 0;}
 h2   { color: #4444FF; margin:3 0 3 0;}
