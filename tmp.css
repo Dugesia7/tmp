@@ -16,7 +16,7 @@ body{
   color: #000000;
   background-color: #221111;/* #EEFFFF;*/
   margin-top:3px;
-  background-image: url('../tmp/sacher.svg');
+  background-image: url('../tmp/sacher.webp');
   background-repeat:  no-repeat;
   background-position: left 10% top 10%; 
 }
