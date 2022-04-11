@@ -31,14 +31,16 @@ th {
   border-style:outset;
   border-width:1px;
   border-color:#FFCCCC;
+  background-color:#332222;
   filter:blur(direction=135,strength=2);
 }
 td {
   border-style:outset;
   border-width:1px;
   border-color:#FFCCCC;
+  background-color:#442222;
 }
-h1   { color: #4444FF; margin:3 0 3 0;}
+h1   { color: #FF4444; margin:3 0 3 0;}
 h2   { color: #4444FF; margin:3 0 3 0;}
 hr { border		: dashed #4169E1 1px;}
 p{margin:3px 0 3px 0;}
