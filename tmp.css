@@ -41,12 +41,13 @@ td {
   border-width:1px;
   border-color:#FFCCCC;
 }
-/*「ターンXXXXX　(某月)　○○島開発計画」の部分（ただし「開発計画」以外は.numberと.islNameで上書きされる）*/
+/*h1:「ターンXXXXX　(某月)　○○島開発計画」の部分（ただし「開発計画」以外は.numberと.islNameで上書きされる）*/
 h1   { color: #FF4444; margin:3 0 3 0;}
+/*h2: 用途不明*/
 h2   { color: #4444FF; margin:3 0 3 0;}
 hr { border		: dashed #4169E1 1px;}
 p{margin:3px 0 3px 0;}
-
+textarea { background-color: #553311}
 
 /* リンク(ヘッダ) */
 #LinkHead    {
@@ -217,10 +218,10 @@ td.s { border-width:0px; }
 #RecentlyLog2{ white-space : nowrap; margin-left: 30px; }
 
 /* 順位表サブ見出し (例 TitleCellとInfoCellの中間色) (究想)*/
-.SubTCell    { background-color: #E0FFFF; text-align:center; }
+.SubTCell    { background-color: inherit; text-align:center; }
 
 /* 観光者通信表示欄  (例 InfoCellと同じ色) (究想)*/
-.LbbsCell    { background-color: #CCFFFF; text-align:left; }
+.LbbsCell    { background-color: inherit; text-align:left; }
 
 /* Battle Fieldの★ */
 .star {
