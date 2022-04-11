@@ -16,10 +16,10 @@ a.M       { text-decoration:none;font-size:9pt;}
 
 body{
   color: #FFEEEE;
-  background-color: #221111;/* #EEFFFF;*/
+  background-color: #331810;/* #EEFFFF;*/
   text-shadow:
-            1px 1px 1px #000000, -1px -1px 1px #000000,
-           -1px 1px 1px #000000,  1px -1px 1px #000000;
+            1px 1px 1px #331810, -1px -1px 1px #331810,
+           -1px 1px 1px #331810,  1px -1px 1px #331810;
   margin-top:3px;
   background-image: url('../tmp/sacher.webp');
   background-repeat:  no-repeat;
@@ -49,7 +49,10 @@ h1   { color: #FF4444; margin:3 0 3 0;}
 h2   { color: #4444FF; margin:3 0 3 0;}
 hr { border		: dashed #4169E1 1px;}
 p{margin:3px 0 3px 0;}
-textarea, select { background-color: #553311}
+textarea, select {
+  color: #FFEEEE;
+  background-color: #553311
+}
 
 /* リンク(ヘッダ) */
 #LinkHead    {
