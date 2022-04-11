@@ -44,7 +44,7 @@ td {
   border-color:#FFCCCC;
 }
 /*h1:「ターンXXXXX　(某月)　○○島開発計画」の部分（ただし「開発計画」以外は.numberと.islNameで上書きされる）*/
-h1   { color: #FF4444; margin:3 0 3 0;}
+h1   { color: #A06040; margin:3 0 3 0;}
 /*h2: 用途不明*/
 h2   { color: #4444FF; margin:3 0 3 0;}
 hr { border		: double #E16941 1px;}/*区切り線*/
@@ -67,7 +67,7 @@ textarea, select, input {
   border      : dashed #AABBCC 1px;
   width       : 450px;
   margin-left : 0;
-  background-color: #EEFFFF;
+  background-color: transparent;
   font-size:0.9em;
 }
 
@@ -125,15 +125,15 @@ textarea, select, input {
 
 .islName, .islName2, .number, .head, .command, .disaster, .lbbsSS, .lbbsOW,
 .attention, .money, .food{ font-weight: bold; }
-.islName   { color: #A06040;        } /* 島の名前など */
+.islName   { color: #FF4444;        } /* 島の名前など */
 .islName2  { color: #808080;        } /* 薄くなった島の名前 */
-.number    { color: #662208;        } /* 各種表の番号など */
-.head      { color: #553311;        } /* 各種表における見だし */
-.command   { color: #D08000;        } /* 開発計画名 */
-.disaster  { color: #FF0000;        } /* 災害 */
-.lbbsSS    { color: #553311;        } /* 観光者通信（観光者） */
-.lbbsOW    { color: #662208;        } /* 観光者通信（オーナ） */
-.attention { color: #FF0000;        } /* 注意 */
+.number    { color: #B05533;        } /* 各種表の番号など */
+.head      { color: #A06040;        } /* 各種表における見だし */
+.command   { color: #D08030;        } /* 開発計画名 */
+.disaster  { color: #EE1100;        } /* 災害 */
+.lbbsSS    { color: #A06040;        } /* 観光者通信（観光者） */
+.lbbsOW    { color: #B05533;        } /* 観光者通信（オーナ） */
+.attention { color: #EE1100;        } /* 注意 */
 .normal    { color: #FFEEEE;        } /* 通常の文字色 */
 /* 背景色 */
 .TitleCell, .NumberCell, .NameCell, .InfoCell{ background-color: inherit;}
