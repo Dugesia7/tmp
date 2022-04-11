@@ -47,9 +47,9 @@ td {
 h1   { color: #FF4444; margin:3 0 3 0;}
 /*h2: 用途不明*/
 h2   { color: #4444FF; margin:3 0 3 0;}
-hr { border		: dashed #4169E1 1px;}
+hr { border		: double #E16941 1px;}/*区切り線*/
 p{margin:3px 0 3px 0;}
-textarea, select {
+textarea, select, input {
   color: #FFEEEE;
   background-color: #553311
 }
@@ -127,14 +127,14 @@ textarea, select {
 .attention, .money, .food{ font-weight: bold; }
 .islName   { color: #A06040;        } /* 島の名前など */
 .islName2  { color: #808080;        } /* 薄くなった島の名前 */
-.number    { color: #FF0000;        } /* 順位の番号など */
-.head      { color: #000080;        } /* 順位表における見だし */
+.number    { color: #662208;        } /* 各種表の番号など */
+.head      { color: #553311;        } /* 各種表における見だし */
 .command   { color: #D08000;        } /* 開発計画名 */
 .disaster  { color: #FF0000;        } /* 災害 */
-.lbbsSS    { color: #0000FF;        } /* 観光者通信（観光者） */
-.lbbsOW    { color: #FF0000;        } /* 観光者通信（オーナ） */
+.lbbsSS    { color: #553311;        } /* 観光者通信（観光者） */
+.lbbsOW    { color: #662208;        } /* 観光者通信（オーナ） */
 .attention { color: #FF0000;        } /* 注意 */
-.normal    { color: #000000;        } /* 通常の文字色 */
+.normal    { color: #FFEEEE;        } /* 通常の文字色 */
 /* 背景色 */
 .TitleCell, .NumberCell, .NameCell, .InfoCell{ background-color: inherit;}
 .InputCell, .MapCell, .CommandCell{ background-color: transparent;}
