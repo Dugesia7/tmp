@@ -17,6 +17,7 @@ a.M       { text-decoration:none;font-size:9pt;}
 body{
   color: #FFEEEE;
   background-color: #221111;/* #EEFFFF;*/
+  -webkit-text-stroke: 1px #000000;
   margin-top:3px;
   background-image: url('../tmp/sacher.webp');
   background-repeat:  no-repeat;
@@ -129,14 +130,16 @@ p{margin:3px 0 3px 0;}
 .attention { color: #FF0000;        } /* 注意 */
 .normal    { color: #000000;        } /* 通常の文字色 */
 /* 背景色 */
-.TitleCell   { background-color: #443333; padding:3px; } /* 諸表見出し */
-.NumberCell  { background-color: #442211;        } /* 諸表数値 */
-.NameCell    { background-color: #553311;        } /* 諸表島名 */
-.InfoCell    { background-color: #553333;text-align:right } /* 諸表データ */
+.TitleCell, .NumberCell, .NameCell, .InfoCell{ background-color: inherit;}
+.InputCell, .MapCell, .CommandCell{ background-color: transparent;}
+.TitleCell   { padding:3px; } /* 諸表見出し */
+.NumberCell  { } /* 諸表数値 */
+.NameCell    { } /* 諸表島名 */
+.InfoCell    { text-align:right } /* 諸表データ */
 .CommentCell { background-color: #CCFFCC;        } /* 諸表コメント欄 */
-.InputCell   { background-color: 332200; font-size:0.9em; } /* 開発計画を入力するやつ（を囲ってるでかい四角） */
-.MapCell     { background-color: #332200;        } /* 開発計画地図（を囲ってるでかい四角） */
-.CommandCell { background-color: #332200;        } /* 入力中・入力済みの開発計画（を囲ってるでかい四角） */
+.InputCell   { font-size:0.9em; } /* 開発計画を入力するやつ（を囲ってるでかい四角） */
+.MapCell     { } /* 開発計画地図（を囲ってるでかい四角） */
+.CommandCell { } /* 入力中・入力済みの開発計画（を囲ってるでかい四角） */
 .PopupCell   { background-color: #E0FFFF;        } /* Popup コマンド入力欄 */
 
 /* JSコマンド送信済み */
