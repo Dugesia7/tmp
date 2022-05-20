@@ -319,7 +319,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     style="cursor:pointer">
     <ellipse
        style="fill:url(#radialGradient6500);fill-opacity:1;stroke:none;stroke-width:1.10979"
        id="path5652"
