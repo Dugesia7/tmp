@@ -26,7 +26,7 @@ body{
             1px 1px 1px #331810, -1px -1px 1px #331810,
            -1px 1px 1px #331810,  1px -1px 1px #331810;
   margin-top:3px;
-  background-image: url('../tmp/sacher.svg');
+  background-image: url('../tmp/sacher.svg');/* 背景画像なのでアニメーションなどは無効*/
   background-repeat:  no-repeat;
   background-position: left 10% top 10%; 
 }
