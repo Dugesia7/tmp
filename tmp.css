@@ -58,6 +58,10 @@ textarea, select, input {
   color: #FFEEEE;
   background-color: #553311
 }
+/*広告欄をいじれるかどうかの実験*/
+iframe  {
+  transform: rotateY( 180deg );
+}
 
 /* リンク(ヘッダ) */
 #LinkHead    {
