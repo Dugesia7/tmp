@@ -26,7 +26,7 @@ body{
             1px 1px 1px #331810, -1px -1px 1px #331810,
            -1px 1px 1px #331810,  1px -1px 1px #331810;
   margin-top:3px;
-  /*background-image: url('../tmp/sacher.svg');/* 背景画像なのでアニメーションなどは無効*/
+  /*background-image: url('sacher.svg');*/
   background-repeat:  no-repeat;
   background-position: left 10% top 10%; 
 }
@@ -52,7 +52,7 @@ td {
 h1   {
 	color: #A06040;
 	margin:3 0 3 0;
-	background-image: url('../tmp/sacher.svg'), url('../tmp/sacher.svg');
+	background-image: url('sacher.svg'), url('sacher.svg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: right,left;
@@ -125,7 +125,7 @@ iframe  {
 	border		: solid #008B8B;
 	border-width	: 0px 0px 1px 0px;
 	width		: 650px;
-	background-image: url('../skb_bg_title.gif');
+	/*background-image: url('../skb_bg_title.gif');*/
 	background-position: 100% 100%;
 	background-repeat: no-repeat;
 }
