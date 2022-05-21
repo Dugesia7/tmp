@@ -26,7 +26,7 @@ body{
             1px 1px 1px #331810, -1px -1px 1px #331810,
            -1px 1px 1px #331810,  1px -1px 1px #331810;
   margin-top:3px;
-  background-image: url('../tmp/sacher.svg');/* 背景画像なのでアニメーションなどは無効*/
+  /*background-image: url('../tmp/sacher.svg');/* 背景画像なのでアニメーションなどは無効*/
   background-repeat:  no-repeat;
   background-position: left 10% top 10%; 
 }
@@ -49,7 +49,13 @@ td {
   border-color:#FFCCCC;
 }
 /*h1:「ターンXXXXX　(某月)　○○島開発計画」の部分（ただし「開発計画」以外は.numberと.islNameで上書きされる）*/
-h1   { color: #A06040; margin:3 0 3 0;}
+h1   {
+	color: #A06040;
+	margin:3 0 3 0;
+	background-image: url('../tmp/sacher.svg');
+	background-size: contain;
+	background-position: right;
+}
 /*h2: 用途不明*/
 h2   { color: #4444FF; margin:3 0 3 0;}
 hr { border		: double #E16941 1px;}/*区切り線*/
