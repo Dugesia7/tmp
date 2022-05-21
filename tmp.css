@@ -54,7 +54,8 @@ h1   {
 	margin:3 0 3 0;
 	background-image: url('../tmp/sacher.svg');
 	background-size: contain;
-	background-position: right;
+	background-repeat: no-repeat;
+	background-position: right,left;
 }
 /*h2: 用途不明*/
 h2   { color: #4444FF; margin:3 0 3 0;}
