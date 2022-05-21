@@ -140,8 +140,8 @@ iframe  {
 .head      { color: #A06040;        } /* 各種表における見だし */
 .command   { color: #D08030;        } /* 開発計画名 */
 .disaster  { color: #EE1100;        } /* 災害 */
-.lbbsSS    { color: #A06040;        } /* 観光者通信（観光者） */
-.lbbsOW    { color: #B05533;        } /* 観光者通信（オーナ） */
+.lbbsSS    { color: #C07050;        } /* 観光者通信（観光者） */
+.lbbsOW    { color: #C0583A;        } /* 観光者通信（オーナ） */
 .attention { color: #EE1100;        } /* 注意 */
 .normal    { color: #FFEEEE;        } /* 通常の文字色 */
 /* 背景色 */
