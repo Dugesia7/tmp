@@ -303,7 +303,13 @@ td.s { border-width:0px; }
 .ab    { position:absolute;text-decoration:none;}
 
 /* 地形占有表 (究想)*/
-#mapStatistics{ white-space : nowrap; }
+#mapStatistics{
+	white-space : nowrap;
+	background-image : url(sacher.svg);
+	background-size : contain;
+	background-repeat : no-repeat;
+	background-position : right;
+}
 
 /* 対戦の状況 (究想トーナメント)*/
 #fightmode{ white-space : nowrap; }
