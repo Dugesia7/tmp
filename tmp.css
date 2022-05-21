@@ -52,7 +52,7 @@ td {
 h1   {
 	color: #A06040;
 	margin:3 0 3 0;
-	background-image: url('../tmp/sacher.svg');
+	background-image: url('../tmp/sacher.svg'), url('../tmp/sacher.svg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: right,left;
